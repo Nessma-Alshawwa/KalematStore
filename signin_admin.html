@@ -1,0 +1,68 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+      <meta name="description" content="">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/style.css">
+
+    <title>كلمات</title>
+    <link rel="icon" href="img/logo.png">
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+  </head>
+  <body class="text-center">
+    <form class="form-signin">
+      <a href="home.html">
+        <img class="mb-4" src="img/logo.png" alt="" width="500" height="500">
+      </a>
+      <div style="margin-top: -100px; margin-bottom: 20px;">
+        <label style="margin-left: 200px; font-size: 17px; margin-bottom: 10px;">:إسم المدير </label>
+        <div class="input-group">
+          <span class="input-group-addon" ><span class="glyphicon glyphicon-user" style="size: 16px;"></span></span>
+          <input type="text" id="inputText" class="form-control" placeholder="إسم المدير " required autofocus>
+        </div>
+        
+        <label style="margin-left: 200px; font-size: 17px; margin-bottom: 10px; margin-top: 20px;">:كلمة المرور</label>
+        <div class="input-group">
+        <span class="input-group-addon" ><span class="glyphicon glyphicon-lock"></span></span>
+        <input type="password" id="inputPassword" class="form-control" placeholder="كلمة المرور" required>
+        
+        </div>
+        <a href="admin.html"><button class="btn btn-lg btn-primary btn-block" type="submit" style="margin-top: 20px;">تسجيل الدخول </button></a>
+      </div>
+      <p class="mt-5 mb-3 text-muted" style="font-family: Segoe UI;">...ليس معي سوا كلمات</p>
+    </form>
+</body>
+</html>
